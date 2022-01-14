@@ -1,0 +1,332 @@
+- Contents - 
+*Introduction
+*Windows Installation
+*Mac Installation
+*Setup & Hello World
+*Drawing a Shape
+*Variables
+*Data Types
+*Working With Strings
+*Working With Numbers
+*Getting User Input
+*Building a Calculator
+*Building a Mad Libs
+*Arrays
+*Functions
+*Return Statement
+*If Statements
+*If Statements (con't)
+*Building a Better Calculator
+*Switch Statements
+*While Loops
+*Building a Guessing Game
+*For Loops
+*Exponent Function
+*2d Arrays & Nested Loops
+*Comments
+*Pointers
+*Classes & Objects
+*Constructor Functions
+*Object Functions
+*Getters & Setters
+*Inheritance
+
+
+
+*Drawing a Shape
+//triangle
+{
+cout <<"         /|"<<endl;
+cout <<"       /  |"<<endl;
+cout <<"     /    |"<<endl;
+cout <<"   /___|"<<endl;
+}
+
+
+*Variable - a container
+main(){
+string name = "ksb";
+int age = 25;
+cout << "hi, my name is " <<name<< endl;
+cout << "my age is" <<age<< endl;
+return 0;
+}
+
+
+*Data types
+main(){
+char grade = 'A';
+string str = "hello there!!";
+int num = 50;
+double bigNum = 45.22222;
+bool isMale = true;
+
+cout << 33 << endl; //constant
+return 0;
+}	
+
+
+*Working with strings
+cout <<"kushal here\n"; // \-new line
+cout <<"hmmm"<< endl;
+
+string phrase = "kushal";
+cout <<phrase;
+
+**string function - a block of code when call upon, will do a task!!
+1)string phrase = "kushal";
+cout <<phrase.length(); //returns the chars prsnt in the string
+2)string phrase = "kushal";
+cout <<phrase[0]; //k
+3)string phrase = "kushal";
+phrase [0] = 't';
+cout <<phrase; //tushal
+4)string phrase = "kushal";
+cout <<phrase.find("sha", 0); //0-from where i want to start my search 
+5)string phrase = "kushal";
+string storeSubstr = phrase.substr(2, 3); //2-start, 3-hw mny to grab
+cout << storeSubstr; //sha
+
+
+**Working with numbers
+cout << 10+10; //20
+Cpp "math function" -- gSearch
+#include <iostream>
+#include <cmath> //using math func.
+...
+cout << pow(2, 2); //4
+cout << fmax(2, 5); //bigger no. of the 2
+
+
+**Get input from user
+main(){
+int age;
+cout <<"enter the age: ";
+cin >> age;
+cout <<"you're " << age << "year's old" << endl;
+return 0;
+}
+*how to get strings of text --
+{
+string name;
+cout<<"enter your name: ";
+getline(cin, name); //enter line(string) of txt
+cout<< "hello " <<name << endl;
+return 0;
+}
+
+
+
+**Building Basic calulator(part1) ----
+{
+int num1, num2;
+cout << "enter first number: ";
+cin >> num1;
+cout << "enter second number: ";
+cin >> num2;
+cout <<num1+num2;
+return 0;
+}
+}
+
+
+
+**building Mad libs game -----
+{
+string color, pluralNoun, celebrity;
+cout<<"enter a color:";
+getline(cin, color); //getting input from user
+cout<<"enter a plural noun:";
+getline(cin, pluralNoun);
+cout<<"enter a celebrity:";
+getline(cin, celebrity);
+
+cout<< "roses are " << color << endl;
+cout<<  pluralNoun <<" are blue" << endl;
+cout<< "I love " << celebrity << endl;
+return 0;
+}
+
+
+
+**Arrays -- can hold multiple data values
+elements on the list - {3, 4, 5, 6, 7}
+
+int luckNumber[] = {3, 4, 5, 6, 7};
+cout << luckNumber[3]; //6
+return 0;
+
+
+
+**functions -- collection of code which performs a specific task. (a block of code)
+
+void sayHi(string name){
+ cout << "hello " << name << endl;
+}
+int main(){
+sayHi("ksb");
+sayHi("kmk"); //fuction reusability
+sayHi("pop"); //fuction reusability
+
+return 0;
+}
+
+*function stub/signature - declaring the funtion
+
+///////////////////////////////////////////////////////
+
+void sayHi(string name); //func stub
+
+int main(){
+sayHi("ksb");
+sayHi("kmk"); //fuction reusability
+sayHi("pop"); //fuction reusability
+
+return 0;
+}
+void sayHi(string name){
+ cout << "hello " << name << endl;
+}
+
+
+
+**return statement -- getting (return) values from function
+
+double cube(double num){
+	return num * num * num ;
+}
+
+int main(){
+{
+cout<<cube(5.0);
+return 0; 
+}
+
+
+
+**IF statement -- responds to  a situation (T/F)
+1)
+{
+bool isMale=false;
+if(isMale){
+cout << "you are male";
+}else{
+cout<<"you are not male";
+}
+return 0;
+}
+
+2)
+{
+bool isMale=false;
+bool isTall=true;
+if(isMale && isTall){ //both conditions need to be true
+cout << "you are male";
+}else{
+cout<<"you are not male";
+}
+return 0;
+}
+
+3)
+if(isMale || isTall) //any 1 needs to be true
+
+4)
+{
+bool isMale=true;
+bool isTall=true;
+if(isMale && isTall){ //both conditions need to be true
+cout << "you are tall male";
+} else if(isMale && !isTall){
+cout<<"you are not tall male";
+} else if(!isMale && isTall){
+cout<<"you are tall but not male";
+}else{
+cout<<"you are not male and nt tall";
+}
+return 0;
+}
+
+**More on IF Statement
+max of 2 nos. --
+
+int getMax(int n1, int n2){
+int result;
+if(n1>n2){
+result = n1;
+}else{ result = n2;
+}
+return result;
+}
+int main(){
+cout<<getMax(2,5);
+return 0;
+}
+
+max of 3 nos. --
+int getMax(int n1, int n2, int n3){
+int result;
+if(n1>=n2 && n1>=n3){
+result = n1;
+}else if(n2>=n1 && n2>=n3)
+{ 
+result = n2;
+}else{
+result = n3;
+}
+return result;
+}
+int main(){
+cout<<getMax(2,5,20); //20(n3)
+return 0;
+}
+
+
+
+**Building a calculator(part2) ---
+int num1, num2;
+char op;
+cout << "Enter num1: ";
+cin >> num1;
+cout << "Enter Operator: ";
+cin >> op;
+cout << "Enter num2: ";
+cin >> num2;
+
+if(op == '+'){
+     cout << num1 + num2 << endl;
+} else if(op == '-'){
+     cout << num1 - num2 << endl;
+} else if(op == '/'){
+     cout << num1 / num2 << endl;
+} else if(op == '*'){
+     cout << num1 * num2 << endl;
+} else {
+     cout << "Invalid Operator" << endl;
+}
+
+
+
+**Switch statements --- a special type of if statement, to check one specific value against many values.
+
+string getDayOfWeek(int dayNum){
+string dayName;
+switch(dayNum){
+case 0: dayName = "Sunday";
+	break;
+case 1: dayName = "Monday";
+	break;
+case 2: dayName = "Tuesday";
+	break;
+default: dayName = "Invalid Day Number";
+}
+return dayName;
+}
+int main(){
+cout<<getDayOfWeek(2);
+return 0;
+}
+
+
+
+**While loop ---
