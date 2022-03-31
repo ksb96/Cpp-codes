@@ -11,7 +11,7 @@ Working With Strings
 Working With Numbers
 Getting User Input
 Building a Calculator 
-10)Building a Mad Libs
+Building a Mad Libs
 Arrays
 2d Arrays & Nested Loops
 Functions
