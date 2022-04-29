@@ -329,4 +329,24 @@ return 0;
 
 
 
-**While loop ---
+**While loop ---loop through a program while certain condition is true 
+ex -
+main(){
+int index = 1;
+while(index <= 5){
+cout <<index <<endl;
+index++;
+}
+return 0;
+}
+do-while --- statment is executed(once) before the condition is checked
+ex -
+main(){
+int index = 6;
+do{
+cout <<index <<endl;
+index++;
+}while(index <= 5)
+return 0;
+}
+output -- 6
