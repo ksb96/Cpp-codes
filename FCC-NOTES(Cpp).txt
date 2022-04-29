@@ -350,3 +350,7 @@ index++;
 return 0;
 }
 output -- 6
+
+
+
+**Building a guessing game--
