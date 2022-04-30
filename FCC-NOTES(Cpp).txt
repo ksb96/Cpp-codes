@@ -354,3 +354,83 @@ output -- 6
 
 
 **Building a guessing game--
+main(){
+int secretNum = 7;
+int guess;
+int guessCount = 0;
+int guessLimit = 3;
+bool outOfGuesses = false;
+//logic
+while(secretNum  1= guess && !outOfGuesses ){
+if(guessCount  < guessLimit ){
+cout << "Enter guess: ";
+cin >> guess;
+guessCount ++;
+}else{
+outOfGuesses  = true;
+}}
+if(outOfGuesses){
+cout << "You Lose!";
+}else{
+cout << "You Win!";
+}
+return 0;
+}
+
+**For Loops ---a special type of loop which keeps track of how many times we have gone through the loop
+ex -
+{
+for(int i=1; i<=5; i++){
+cout<< i <<endl;
+}
+return 0; 
+
+
+**Exponent Function -- it will take a number to a specific power
+Ex - (2,2)=> 2^2 = 4
+Ex -
+#include<iostream>
+using namespace std;
+//logic
+int power(int baseNum, int powNum){
+int result = 1;
+for(int i =0; i<powNum; i++){
+result = result * baseNum;
+}
+return result;
+}
+int main(){
+cout<<power(2,3); //8
+return 0;
+}
+
+
+**2d Arrays & Nested Loops --
+2d
+Ex-
+main(){
+int numberGrid[3][2] = {	//[row][column]
+		          {1,2},  //0
+		          {3,4},  //1
+		          {5,6}  //2
+		       };
+cout << numberGrid[2][0]; //[row][ele inside]
+return 0;
+}
+
+nested for-loop -- a for loop inside a for loop
+Ex-
+main(){
+int numberGrid[3][2] = {	
+		          {1,2},  
+		          {3,4},  
+		          {5,6}
+		       };
+for(int i=0; i<3;i++){ //row
+for(int j=0;j<2;j++){ //col - each ele present in col
+cout << numberGrid[i][j];
+}
+cout<<endl;
+}
+return 0;
+}	
