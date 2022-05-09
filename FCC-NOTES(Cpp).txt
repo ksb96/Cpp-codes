@@ -418,7 +418,7 @@ cout << numberGrid[2][0]; //[row][ele inside]
 return 0;
 }
 
-nested for-loop -- a for loop inside a for loop
+**nested for-loop -- a for loop inside a for loop
 Ex-
 main(){
 int numberGrid[3][2] = {	
@@ -433,4 +433,21 @@ cout << numberGrid[i][j];
 cout<<endl;
 }
 return 0;
-}	
+}
+
+**Pointers-- "access memory address" when u want to print the address of a variable(container) it will display a hexadecimal value(might be long also!)
+Ex-
+int age = 25;
+cout << &age; //0x6F999
+
++Pointer variable -- a variable(container), where we can store memory address of a variable(normal var!!)
+Ex-
+int age = 25;
+int *pAge = &age;
+cout << pAge; //0x6F999
+
++Dereferencing -- getting/grabing the actual value of that the memory address, which the pointer is having
+Ex-
+int age = 25;
+int *pAge = &age;
+cout << *pAge; //25
