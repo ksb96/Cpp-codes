@@ -451,3 +451,9 @@ Ex-
 int age = 25;
 int *pAge = &age;
 cout << *pAge; //25
+
+**Classes & Objects--
+Class - is new kind of data type, we can create(specification) a blueprint of a new data type./template of my new data type.
+Object - is an actual instance(physical) of that blueprint(class).
+
+
