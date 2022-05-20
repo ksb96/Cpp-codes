@@ -461,6 +461,8 @@ Object - is an actual instance(physical) of that blueprint(class).
 create an object.(i.e means 1 or more than 1).
 
 
-
 **Object function/Functor--create to get information about the object/s, lso modify it. 
 0-false, 1-true
+
+
+**Getters & Setters--allow u to control, access to different attributes and different elements inside of cpp classes.
