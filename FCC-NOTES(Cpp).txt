@@ -466,3 +466,6 @@ create an object.(i.e means 1 or more than 1).
 
 
 **Getters & Setters--allow u to control, access to different attributes and different elements inside of cpp classes.
+
+
+**Inheritancce--we define a class & then define another classes & those classes can extend the functionality of the original class.
