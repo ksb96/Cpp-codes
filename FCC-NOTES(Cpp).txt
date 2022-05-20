@@ -457,4 +457,8 @@ Class - is new kind of data type, we can create(specification) a blueprint of a 
 Object - is an actual instance(physical) of that blueprint(class).
 
 
-**Constructor Functions--
+**Constructor Functions--s a special function that is going to get called whenver we create an object of a class. A constructor function is called whenever we 
+create an object.(i.e means 1 or more than 1).
+
+
+**
