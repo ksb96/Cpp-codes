@@ -1,6 +1,6 @@
 # Cpp_Practice-Workspace
 
-*Purpose - Mainly to get a more in depth understanding of this programming language.
+**Purpose - Mainly to get a more in depth understanding of this programming language.**
 ---------------------------------------------------------------------------
 
 **CONTENTS**
