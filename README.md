@@ -1,10 +1,11 @@
 # Cpp_Practice-Workspace
 
-**Purpose - Mainly to get a more in depth understanding of this programming language.**
+**Purpose**
+- Mainly to get a more in depth understanding of this programming language.
+- Know about the Standard Library.
 ---------------------------------------------------------------------------
 
 **CONTENTS**
-
 ~~~~~~~~~~~~~~~~~~~~~~
 
 1) Introduction
