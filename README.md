@@ -1,10 +1,12 @@
-# Cpp_Practice-Wrkspce
-A bunch of Cpp codes has been dumped in this repo for future ref. !!!
+# Cpp_Practice-Workspace
+
+**Purpose**
+- Mainly to get a more in depth understanding of this programming language.
+- Know about the Standard Library.
 ---------------------------------------------------------------------------
 
-CONTENTS
-
-###########################################################################
+**CONTENTS**
+~~~~~~~~~~~~~~~~~~~~~~
 
 1) Introduction
 2) Setup & Hello World
@@ -34,3 +36,5 @@ CONTENTS
 26) Object Functions
 27) Getters & Setters
 28) Inheritance
+29) Polymorphism
+30) Standard Library(STL)
