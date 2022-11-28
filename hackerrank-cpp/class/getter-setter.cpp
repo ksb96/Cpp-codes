@@ -3,10 +3,12 @@
 #include <sstream>
 using namespace std;
 
-class Student{
+class Student
+{
 public:
     int age, standard;
     string first_name, last_name;
+
 public:
     void set_age(int a)
     {
@@ -68,7 +70,7 @@ int main()
     cout << st.get_standard() << "\n";
     cout << "\n";
     // cout << st.to_string();
-    cout << st.age <<","<<st.first_name<<","<<st.last_name<<","<<st.standard<<"."<<'\n';
+    cout << st.age << "," << st.first_name << "," << st.last_name << "," << st.standard << "." << '\n';
 
     return 0;
 }
