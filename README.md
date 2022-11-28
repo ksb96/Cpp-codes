@@ -6,8 +6,12 @@
 - Know about the Standard Library.
 ---------------------------------------------------------------------------
 
+**Folder structure**
+- **cpp-codes** - contains N-numbers of code examples for each and individual concepts.
+- **hackerrank-cpp** - contains *hackerrank* cpp exercise solutions.
+---------------------------------------------------------------------------
+
 **CONTENTS**
-~~~~~~~~~~~~~~~~~~~~~~
 
 1) Introduction
 2) Setup & Hello World
@@ -39,3 +43,4 @@
 28) Inheritance
 29) Polymorphism
 30) Standard Library(STL)
+---------------------------------------------------------------------------
