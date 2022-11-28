@@ -36,7 +36,8 @@ class MyClass
             void print(){
                 std::cout << "Hi";
 }
-};
+}
+;
 int main()
 {
     std::unique_ptr<MyClass> p = std::make_unique<MyClass>; // pointing the public class
