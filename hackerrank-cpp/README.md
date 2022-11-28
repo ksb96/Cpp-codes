@@ -5,7 +5,7 @@ Solutions to hackerrank practice questions.
 **Content**
 - array
 - class
--- conditional
+- conditional
 - function
 - inheritance
 - loop
