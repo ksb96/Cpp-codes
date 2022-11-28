@@ -1,7 +1,8 @@
 # Cpp_Practice-Workspace
 
 **Purpose**
-- Mainly to get a more in depth understanding of this programming language.
+- More in depth understanding of the programming language.
+- OOP concepts.
 - Know about the Standard Library.
 ---------------------------------------------------------------------------
 
