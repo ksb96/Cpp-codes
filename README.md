@@ -8,6 +8,7 @@
 
 **Folder structure**
 - **cpp-codes** - contains N-numbers of code examples for each and individual concepts.
+- **ds-main** - contains ***data structes***
 - **hackerrank-cpp** - contains *hackerrank* cpp exercise solutions.
 ---------------------------------------------------------------------------
 
