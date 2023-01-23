@@ -8,7 +8,7 @@
 
 **Folder structure**
 - **cpp-codes** - contains N-numbers of code examples for each and individual concepts.
-- **ds-main** - contains ***data structes***
+- **ds-cpp-plygrnd** - contains algorithms of each individual ***data structure*** topics.
 - **hackerrank-cpp** - contains *hackerrank* cpp exercise solutions.
 ---------------------------------------------------------------------------
 
