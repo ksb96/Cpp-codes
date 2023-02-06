@@ -56,7 +56,7 @@ public:
         }
         length++;
     }
-    
+
     void reverse()
     {
         Node *temp = head;
