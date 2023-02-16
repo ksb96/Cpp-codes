@@ -61,12 +61,12 @@ public:
             }
         }
     }
-
+    // find/search
     bool contains(int value)
     {
         // for empty tree
         if (root == nullptr)
-            return false;
+            return false; // tree is empty
         Node *temp = root;
         while (temp)
         {
