@@ -1,4 +1,4 @@
-# C++_Practice-Workspace (updated on :- 23-01-2023)
+# C++_Practice-Workspace (updated on :- 14-07-2023)
 
 **Purpose**
 - More in depth understanding of the programming language.
@@ -7,8 +7,8 @@
 ---------------------------------------------------------------------------
 
 **Folder structure**
-- **cpp-codes** - contains N-numbers of code examples for each and individual concepts.
-- **ds-cpp-plygrnd** - contains algorithms of each individual ***data structure*** topics.
+- **cpp-codes** - contains N-numbers of code examples for each and individual concepts/topics.
+- **ds-cpp-playground** - contains algorithms of each individual ***data structure*** topics.
 - **hackerrank-cpp** - contains *hackerrank* cpp exercise solutions.
 ---------------------------------------------------------------------------
 
