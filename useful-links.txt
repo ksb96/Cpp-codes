@@ -1,16 +1,17 @@
 USEFUL LINKS --- 
-1) geeksforgeeks
-2) learncpp
-3) CPlusPlus
+1) [Geeksforgeeks](https://www.geeksforgeeks.org/)
+2) [learncpp](https://www.learncpp.com/)
+3) [CPlusPlus](https://learn-cpp.org/)
 4) Cprogramming
 5) Edabit
 
 YOUTUBE CHANNELS ---
-1) Caleb Curry
-2) Codearchery
-3) thenewboston
+1) [Caleb Curry](https://www.youtube.com/playlist?list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG)
+2) [Codearchery](https://www.youtube.com/watch?v=zl203Xj26AI&list=PLrKBFf87Cy9BVBAZ1Y-6Olzz0KTU4Qw6L)
+3) [thenewboston](https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83)
+4) [Mike Deane - Giraffe Academy](https://youtu.be/vLnPwxZdW4Y)
 
 
 EXCERCISE & PRACTICE
-1) https://hackerrank.com
-2) https://exercism.org/tracks/cpp
+1) [Hackerrank](https://hackerrank.com)
+2) [Excercism](https://exercism.org/tracks/cpp)
