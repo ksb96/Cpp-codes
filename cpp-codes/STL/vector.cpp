@@ -1,19 +1,20 @@
-//vector - storing sequence of contaginuos elements of any type
+// vector - storing sequence of contaginuos elements of any type
 
-#include<vector>
+#include <vector>
 
-int main(){
-    std::vector<int> v = {1,2,3,4,5};
-    std::cout<<v<<'\n';
+int main()
+{
+    std::vector<int> v = {1, 2, 3, 4, 5};
+    std::cout << v << '\n';
 }
 
-
 // .push_back()
-#include<vector>
+#include <vector>
 
-int main(){
-    std::vector<int> v = {1,2,3,4,5};
+int main()
+{
+    std::vector<int> v = {1, 2, 3, 4, 5};
     v.push_back(6);
     v.size();
-    std::cout<<v<<'\n';
+    std::cout << v << '\n';
 }
